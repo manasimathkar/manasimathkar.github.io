@@ -1,10 +1,8 @@
 ---
 title: 'Hello, my name is'
-name: 'Yashita Namdeo'
-subtitle: 'I love exploring new things!'
+name: 'Manasi Mathkar'
+subtitle: 'Driven by creativity and coffee'
 buttonText: 'Get In Touch'
 ---
 
-I'm a Final Year Computer Science Engineering Student at SVVV, Indore. Primarily interested in Web Development and Data Science.
-
-I enjoy learning new skills and implementing them in real life!
+I'm a USC Computer Science graduate specializing in Software Development. Passionate about turning cutting-edge technologies into practical solutions, I'm eager to tackle complex challenges in the tech industry.

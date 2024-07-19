@@ -82,50 +82,7 @@ const Footer = () => {
       .catch(e => console.error(e));
   }, []);
 
-  return (
-    <StyledContainer>
-      <StyledSocial>
-        <StyledSocialList>
-          {socialMedia &&
-            socialMedia.map(({ name, url }, i) => (
-              <li key={i}>
-                <StyledSocialLink
-                  href={url}
-                  target="_blank"
-                  rel="nofollow noopener noreferrer"
-                  aria-label={name}>
-                  <FormattedIcon name={name} />
-                </StyledSocialLink>
-              </li>
-            ))}
-        </StyledSocialList>
-      </StyledSocial>
-      <StyledMetadata tabindex="-1">
-        <StyledGitHubLink
-          href="https://github.com/bchiang7/v4"
-          target="_blank"
-          rel="nofollow noopener noreferrer">
-          <div>
-            Designed &amp; Built by Brittany Chiang<br></br>
-            Revised by Yashita Namdeo
-          </div>
-
-          {githubInfo.stars && githubInfo.forks && (
-            <StyledGitHubInfo>
-              <span>
-                <FormattedIcon name="Star" />
-                <span>{githubInfo.stars.toLocaleString()}</span>
-              </span>
-              <span>
-                <FormattedIcon name="Fork" />
-                <span>{githubInfo.forks.toLocaleString()}</span>
-              </span>
-            </StyledGitHubInfo>
-          )}
-        </StyledGitHubLink>
-      </StyledMetadata>
-    </StyledContainer>
-  );
+  return <StyledContainer></StyledContainer>;
 };
 
 Footer.propTypes = {

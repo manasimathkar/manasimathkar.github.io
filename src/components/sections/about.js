@@ -37,7 +37,7 @@ const Skill = styled.li`
   padding-left: 20px;
   font-family: ${fonts.SFMono};
   font-size: ${fontSizes.smish};
-  color: ${colors.green};
+  color: ${colors.lightSlate};
   &:before {
     content: '▹';
     position: absolute;
@@ -72,7 +72,7 @@ const StyledAvatarLink = styled.a`
   width: 100%;
   position: relative;
   border-radius: ${theme.borderRadius};
-  background-color: ${colors.lightestSlate};
+  background-color: white;
   margin-left: -20px;
   &:hover,
   &:focus {
